@@ -1,0 +1,21 @@
+{
+  "name": "segaho",
+  "version": "0.0.1",
+  "description": "segaho is a small server for game hosting",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dockerode": "^4.0.4",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1",
+    "socket.io": "^4.8.1"
+  }
+}
